@@ -29,13 +29,13 @@
 
 <h3><code>prashant@github ~ $ cat about-me.txt</code></h3>
 
-<p>I’m Prashant Lodhi, a developer and data enthusiast who turns ideas and raw data into useful digital experiences.</p>
+<p>I’m Prashant Lodhi, A data enthusiast who turns ideas and raw data into useful digital experiences.</p>
 
 <ul align="left">
-  <li>Building full-stack apps with Python, FastAPI, Streamlit, and MySQL.</li>
+  <li>MSc in Biotechnology, with a scientific, evidence-first way of thinking.</li>
   <li>Creating data stories and dashboards that make decisions easier.</li>
   <li>Always learning through hands-on projects and thoughtful experimentation.</li>
-  <li>Fluent in Python, powered by coffee, and occasionally negotiating with semicolons.</li>
+  <li>Comfortable with cells and spreadsheets—one grows cultures, the other grows columns.</li>
 </ul>
 
 <h3><code>prashant@github ~ $ tech-stack --list</code></h3>
@@ -48,6 +48,7 @@
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Microsoft Fabric](https://img.shields.io/badge/Microsoft%20Fabric-117865?style=for-the-badge&logoColor=white)
 
 <br>
 <br>
