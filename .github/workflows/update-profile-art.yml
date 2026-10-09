@@ -16,6 +16,8 @@ permissions:
 jobs:
   heatmap:
     runs-on: ubuntu-latest
+    env:
+      GH_PROFILE_USER: PrashantDes
     steps:
       - uses: actions/checkout@v4
 
@@ -30,7 +32,7 @@ jobs:
         run: python scripts/fetch_contributions.py
 
       - name: Render animated contribution graph SVG
-        run: python scripts/generate_streak_svg.py iamsurajchahar contrib-heatmap.svg
+        run: python scripts/generate_streak_svg.py PrashantDes contrib-heatmap.svg
 
       - name: Render streak / numbers card
         run: python scripts/render_stats_svg.py

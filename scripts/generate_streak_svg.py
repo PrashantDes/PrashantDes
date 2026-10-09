@@ -5,7 +5,7 @@ Usage: python generate_streak_svg.py [username] [output.svg]
 """
 import sys, json, os, datetime, urllib.request
 
-USER = sys.argv[1] if len(sys.argv) > 1 else "iamsurajchahar"
+USER = sys.argv[1] if len(sys.argv) > 1 else os.environ.get("GH_PROFILE_USER", "PrashantDes")
 OUT  = sys.argv[2] if len(sys.argv) > 2 else "streak.svg"
 
 def get_data(user):

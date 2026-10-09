@@ -1,17 +1,14 @@
 """
-Prepare the dp (a flat illustration) for clean ASCII conversion:
+Prepare an image for clean ASCII conversion:
   1. remove the background (rembg) so the subject is isolated
-  2. bilateral-smooth away the paper texture (otherwise skin turns to `::::`
-     noise and the eyes drown in it) while keeping the drawn lines sharp
-  3. stretch tones so skin lands near white and hair/lines stay dark
-  4. darken the line work (difference-of-gaussians ridges) -- eyelids, pupils,
-     glasses frame and smile are thin dark strokes that plain luminance
-     averaging washes out at ascii resolution
+  2. bilateral-smooth texture while keeping the subject's details sharp
+  3. stretch tones to retain detail in highlights and shadows
+  4. darken fine lines using difference-of-gaussians ridges
   5. composite onto white and crop square around the subject
 
-Output: source-prepped.png (grayscale), consumed by make_ascii_svg.py.
+Output: profile-prepped.png (grayscale).
 
-    python scripts/prep_photo.py <input.png> [output.png]
+    python scripts/prep_photo.py [input.png] [output.png]
 """
 import os
 import sys
@@ -22,8 +19,8 @@ from PIL import Image
 from rembg import remove
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-INP = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, "..", "source-photo.jpg")
-OUT = sys.argv[2] if len(sys.argv) > 2 else os.path.join(HERE, "..", "source-prepped.png")
+INP = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, "..", "PENGUIN.jpg")
+OUT = sys.argv[2] if len(sys.argv) > 2 else os.path.join(HERE, "..", "profile-prepped.png")
 
 LINE_WEIGHT = 0.6     # how hard drawn lines are pushed toward black
 
