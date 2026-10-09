@@ -27,6 +27,31 @@
 <br>
 <br>
 
+<h3><code>prashant@github ~ $ cat about-me.txt</code></h3>
+
+<p>I’m Prashant Lodhi, a developer and data enthusiast who turns ideas and raw data into useful digital experiences.</p>
+
+<ul align="left">
+  <li>Building full-stack apps with Python, FastAPI, Streamlit, and MySQL.</li>
+  <li>Creating data stories and dashboards that make decisions easier.</li>
+  <li>Always learning through hands-on projects and thoughtful experimentation.</li>
+  <li>Fluent in Python, powered by coffee, and occasionally negotiating with semicolons.</li>
+</ul>
+
+<h3><code>prashant@github ~ $ tech-stack --list</code></h3>
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+
+<br>
+<br>
+
 <h3><code>prashant@github ~ $ ./links.sh</code></h3>
 
 [![GitHub](https://img.shields.io/badge/GitHub-PrashantDes-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/PrashantDes)
