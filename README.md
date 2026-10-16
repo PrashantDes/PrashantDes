@@ -45,7 +45,7 @@
 ![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![DAX](https://img.shields.io/badge/DAX-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Power Query](https://img.shields.io/badge/Power%20Query-217346?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white)
+![Power Query](https://img.shields.io/badge/Power%20Query-217346?style=for-the-badge)
 ![Microsoft Fabric](https://img.shields.io/badge/Microsoft%20Fabric-117865?style=for-the-badge&logoColor=white)
 
 <h4>Python & Data Analysis</h4>
@@ -159,7 +159,8 @@
 
 [![GitHub](https://img.shields.io/badge/GitHub-PrashantDes-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/PrashantDes)
 [![Portfolio](https://img.shields.io/badge/Portfolio-prashant--lodhi.vercel.app-0d1117?style=for-the-badge&logo=vercel&logoColor=white)](https://prashant-lodhi.vercel.app/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/prashant-lodhi-527412417/)
+[![Instagram](https://img.shields.io/badge/Instagram-%40pra__zent-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/pra_zent/)
 
 <br>
 
